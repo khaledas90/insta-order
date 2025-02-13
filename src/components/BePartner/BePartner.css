@@ -1,0 +1,17 @@
+.BePartner {
+  margin-top: 90px;
+}
+.BePartner .content {
+  text-align: left;
+  margin-top: 5%;
+}
+
+.BePartner .content p {
+  color: #c8c8c8;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.BePartner .content_head h1 {
+  margin-bottom: 20px;
+}

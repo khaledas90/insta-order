@@ -1,0 +1,56 @@
+.Main-button {
+  background-color: #ad1aaf;
+  color: #fff;
+  border: none;
+  padding: 10px 45px;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.5s;
+}
+.Main-button a {
+  text-decoration: none;
+  color: #fff;
+}
+.Main-button::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 32px;
+  background-color: #ad1aaf;
+  left: -13px;
+  top: 8px;
+  border-right: 15px solid #140c1f;
+  transition: all 0.5s;
+}
+.Main-button::before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 32px;
+  background-color: #ad1aaf;
+  right: -13px;
+  top: 8px;
+  border-left: 15px solid #140c1f;
+  transition: all 0.5s;
+}
+.Main-button:hover {
+  background-color: #fff;
+  color: #140c1f;
+}
+.Main-button:hover a {
+  color: #140c1f;
+}
+
+.Main-button:hover::before {
+  width: 4px;
+  right: 0;
+  top: 8px;
+  border-left: none;
+}
+.Main-button:hover::after {
+  width: 4px;
+  left: 0;
+  top: 8px;
+  border-right: none;
+}

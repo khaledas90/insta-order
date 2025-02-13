@@ -1,0 +1,59 @@
+.footer {
+  background-color: #160e21;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: 30px;
+}
+
+.footer .logo-section img {
+  width: 75px;
+}
+.footer .logo-section h2 {
+  font-size: 29px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.footer .description {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer .social-icons {
+  margin-top: 20px;
+}
+
+.footer .social-icons a {
+  margin-right: 17px;
+  color: #ad1aaf;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.footer .links,
+.footer .contact {
+  margin-top: 20px;
+}
+
+.footer .links h4,
+.footer .contact h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer .links a,
+.footer .contact p {
+  display: block;
+  color: #a2a2a2;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer .links a:hover,
+.footer .contact p:hover {
+  color: #fff;
+}

@@ -1,0 +1,72 @@
+.header {
+  margin: 20px 25px;
+}
+.header .Navbar {
+  background-color: #140c1f;
+}
+
+.header .navbar-brand img {
+  width: 75px;
+}
+.header .navbar-brand h2 {
+  font-size: 29px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.header .navLink {
+  background: #241d2f;
+  padding: 9px 15px;
+  margin-left: 20%;
+}
+.header .navLink a {
+  color: #fff;
+  margin: 0px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.header .navLink a a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 0;
+}
+.header .navLink a a:hover {
+  color: #ad1aaf;
+}
+.header .navLink a:hover {
+  color: #fff;
+}
+.header .navbar-toggler {
+  background-color: #fff !important;
+}
+@media only screen and (max-width: 1240px) {
+  .header .navLink {
+    margin-left: 13%;
+  }
+}
+@media only screen and (max-width: 1119px) {
+  .header .navLink {
+    margin-left: 7%;
+  }
+}
+@media only screen and (max-width: 1066px) {
+  .header .navLink {
+    margin-left: 0% !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header .navbar-brand img {
+    width: 70px;
+  }
+  .header .navbar-brand h2 {
+    font-size: 20px;
+    color: #fff;
+  }
+}

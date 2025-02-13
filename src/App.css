@@ -1,0 +1,24 @@
+.content_head {
+  text-align: center;
+  margin: 60px 0px;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.content_head p {
+  font-size: 25px;
+  font-weight: 400;
+  background: linear-gradient(to right, #ffffff 20%, #e114e4 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+}
+.content_head h1 {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}

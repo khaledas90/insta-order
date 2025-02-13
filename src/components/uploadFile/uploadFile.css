@@ -1,0 +1,50 @@
+.UploadFile .UploadFileArea {
+  padding: 14px;
+  background: #272031;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.UploadFile .drop-area {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272031;
+  border-radius: 8px;
+  min-height: 2in;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.UploadFile img {
+  width: 76px;
+  margin: 24px 0;
+}
+.UploadFile .drop-text {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.UploadFile p {
+  color: #8e8e8e;
+}
+
+.UploadFile input {
+  display: none;
+}
+.browse-button {
+  text-decoration: underline;
+  color: #379bd3;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.browse-button:hover {
+  color: #5cc3ff;
+}
